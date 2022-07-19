@@ -29,4 +29,8 @@
 # 1. Images are made of several layers
 # 2. Order of the layers matter
 # 3. Typically starts with parent Image: includes the OS and sometimes the runtime environment
+# 4. The next layer could be copying the source codes and the dependencies
+ 
+ # B. Docker Hub
+ # A. We can pull relevant docker images from the docker hub.
 
