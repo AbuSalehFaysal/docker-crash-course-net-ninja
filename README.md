@@ -8,3 +8,19 @@
 # Install Linux on Windows with WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install)
 # Manual installation steps for older versions of WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 
+# Lesson-03 - Images and Containers
+# Images
+# Images are like blueprints for containers
+# Contains Runtime Environment
+# Contains Runtime Environment
+# Contains Application Code
+# Contains Any Dependencies
+# Contains Extra Configuration (e.g. env variables)
+# Commands
+# We cannot change Images, we need to create a new Image in case of we want to change something
+
+# Containers
+# When we run an Image, it creates a container which run the instaces of an image and also run our application
+# Container is an isolated process
+# We can share the image to others so that they can run the image which creates the container in their local decices to run the application.
+
