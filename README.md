@@ -4,23 +4,29 @@
 # We need a specific environment to run a specific project. Sometimes we need to share our project with other developers as well and they need to setup the specific environment to run that particular project. To make this process more efficient, docker comes up with a solution called docker container. In a container, we can put all the things to create a specific environment, and share the container with the other developers as well. In this way, the other developers do not have to spend ample amount of time setting up the environment. The only need to have docker to manage that container. 
 
 # Lesson-02 - Installing Docker
-# Install Docker Desktop on Windows (Link: https://docs.docker.com/desktop/install/windows-install/)
-# Install Linux on Windows with WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install)
-# Manual installation steps for older versions of WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install-manual)
+# 1. Install Docker Desktop on Windows (Link: https://docs.docker.com/desktop/install/windows-install/)
+# 2. Install Linux on Windows with WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install)
+# 3. Manual installation steps for older versions of WSL (Link: https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 
 # Lesson-03 - Images and Containers
-# Images
-# Images are like blueprints for containers
-# Contains Runtime Environment
-# Contains Runtime Environment
-# Contains Application Code
-# Contains Any Dependencies
-# Contains Extra Configuration (e.g. env variables)
-# Commands
-# We cannot change Images, we need to create a new Image in case of we want to change something
+# A. Images
+# 1. Images are like blueprints for containers
+# 2. Contains Runtime Environment
+# 3. Contains Runtime Environment
+# 4. Contains Application Code
+# 5. Contains Any Dependencies
+# 6. Contains Extra Configuration (e.g. env variables)
+# 7. Contains Commands
+# 8. We cannot change Images, we need to create a new Image in case of we want to change something
 
-# Containers
-# When we run an Image, it creates a container which run the instaces of an image and also run our application
-# Container is an isolated process
-# We can share the image to others so that they can run the image which creates the container in their local decices to run the application.
+# B. Containers
+# 1. When we run an Image, it creates a container which run the instaces of an image and also run our application
+# 2. Container is an isolated process
+# 3. We can share the image to others so that they can run the image which creates the container in their local decices to run the application.
+
+# Lesson-04 - Parent Images and Docker Hub
+# A. Docker Images
+# 1. Images are made of several layers
+# 2. Order of the layers matter
+# 3. Typically starts with parent Image: includes the OS and sometimes the runtime environment
 
