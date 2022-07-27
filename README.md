@@ -38,6 +38,6 @@
 # set of instruction to docker to create the image
 
 
-# Lesson-08
+# Lesson-08 - Layer Chaching
 # docker build -t myapp .
 
