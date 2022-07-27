@@ -38,3 +38,6 @@
 # set of instruction to docker to create the image
 
 
+# Lesson-08
+# docker build -t myapp .
+
