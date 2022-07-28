@@ -41,3 +41,21 @@
 # Lesson-08 - Layer Chaching
 # docker build -t myapp .
 
+# Lesson -09 - Managing Docker
+
+# docker image delete using command
+
+# docker image rm myapp4
+# docker image rm myapp4 -f
+
+# docker container delete using command
+# docker container rm app_c1
+
+# remove all images and container
+# docker system prune -a
+
+# build images including version
+# docker build -t myapp:v1 .
+
+# run conatiner using that specific version
+# docker run --name myapp_c -p 4000:4000 myapp:v1
