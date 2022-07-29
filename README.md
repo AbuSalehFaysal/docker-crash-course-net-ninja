@@ -59,3 +59,12 @@
 
 # run conatiner using that specific version
 # docker run --name myapp_c -p 4000:4000 myapp:v1
+
+# Lesson-10 - Volumes
+
+#  start a container
+# docker start -i myapp_c
+
+# using volume
+
+# docker run --name myapp_c_nodemon -p 5000:5000 --rm -v C:\Projects\Practice-Projects\docker-crash-course-net-ninja\api\:/app -v app/node_modules myapp:nodemon
