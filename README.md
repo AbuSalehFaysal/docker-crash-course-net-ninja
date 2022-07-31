@@ -68,3 +68,9 @@
 # using volume
 
 # docker run --name myapp_c_nodemon -p 5000:5000 --rm -v C:\Projects\Practice-Projects\docker-crash-course-net-ninja\api\:/app -v app/node_modules myapp:nodemon
+
+# Lesson-11 - Docker Compose
+
+# docker-compose up
+# docker-compose down # it will stop the docker compose and also remove the container
+# docker-compose down --rmi all -v # it will stop the docker compose, remove the container, images and volumes
